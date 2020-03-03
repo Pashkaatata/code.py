@@ -19,15 +19,15 @@ import copy
 # Пример палиндрома: казак, ABBA
 # Использовать функции.
 # Поскольку при присваивании одного списка другому, изменение первого ведет к аналогичному изменению второго списка, то необходимо использовать копию (copy).
-def palindrome(s=[]):
-    l = len(s)
-    for i in range(l//2):
-        if s[i] != s[-1-i]:
-            print("не палиндрома")
-        quit()
-        print("палиндрома")
-    return s
-palindrome('казак, ABBA')
+# def palindrome(s=[]):
+#     l = len(s)
+#     for i in range(l//2):
+#         if s[i] != s[-1-i]:
+#             print("не палиндрома")
+#         quit()
+#         print("палиндрома")
+#     return s
+# palindrome('казак, ABBA')
 #Найдите в списке все простые числа и скопируйте их в новый список.
 # def funct_cpy(a=[]):
 #     for i in range(len(a)):
@@ -37,3 +37,6 @@ palindrome('казак, ABBA')
 # print(funct_cpy([1, 2, 3, 4, 5]))
 
 #Найти среднее арифметическое всех элементов списка.
+# def ar(args=[]):
+#     return sum(args) / len(args)
+# print(ar([1, 2, 3]))
