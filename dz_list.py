@@ -51,9 +51,12 @@
 #     return sum(args) / len(args)
 # print(ar([1, 2, 3]))
 #Запросить у пользователя элемент списка и вывести его индекс.
-# def choice_index(elem=input("value, drop index :>>>>>>>>")):
+# def choice_index(elem=input("value, drop index [1, 2, 3, 4, 5] :>>>>>>>>")):
 #     lst = ["1", "2", "3", "4", "5"]
 #     for item in lst:
 #         if item == elem:
 #             return lst.index(item)
-# print(choice_index())
+#         else:
+#             print("is not value in list")
+#             break
+# print("index :", choice_index())
